@@ -1,0 +1,98 @@
+*{
+margin:0;
+box-sizing: border-box;
+}
+.App {
+  display:grid;
+  grid-template-columns:0.85fr;
+  background-color: #ffffff;
+}
+
+.st-nt-nav{ 
+display:flex;
+flex-flow:row;
+background-color: rgb(252, 251, 251);
+justify-content: space-between;
+align-items: center;
+height: 7.4vh;
+}
+.st-nt-nav h3{
+padding: 15px;
+}
+.st-nt-nav>div:hover{
+  background-color:rgb(150, 148, 148);
+}
+
+.st-nt-heading{
+  padding: 15px;
+}
+
+.st-nt-searchbar{
+  padding: 20px;
+  display: flex;
+}
+.st-nt-searchbar input{
+  height:6vh;
+  background-color: rgb(190, 187, 187);
+  width:70%;
+  font-size: 20px;
+}  
+.st-nt-searchbar span{
+  height:6vh;
+  font-size:2.3rem;
+  padding:3px;
+  background-color: rgb(190, 187, 187);
+  color:gray;
+  line-height:none;
+}
+.st-nt-usernote{
+  padding: 15px;
+}
+.st-nt-usernote input{
+  background-color: lightgreen;
+  height: 15vh;
+  width:75%;
+  border-bottom-right-radius:10px;
+  font-size: medium;
+}
+.st-nt-usernote input:hover{
+  background-color: rgb(106, 210, 106);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
