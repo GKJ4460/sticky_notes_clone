@@ -8,7 +8,7 @@ const Searchbar=()=>{
             </div>
             <div className="st-nt-searchbar">
                     <input type="Search" placeholder="Search ..."/>
-                    <div>
+                    <div className='st-nt-searchicon'>
                         <span className="material-symbols-outlined">search</span>
                     </div>
             </div>
