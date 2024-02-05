@@ -2,7 +2,10 @@ const Noteholder=()=>{
 
     return( <div>
                 <div className="st-nt-usernote">
-                    <input type="text" placeholder="Take Note.." />
+                    <p>Take Note.. </p>
+                    <div>
+                        <span className="material-symbols-outlined">delete</span>
+                    </div>
                 </div>
             </div>
         );
